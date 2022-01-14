@@ -1,0 +1,74 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+.logo,
+a {
+  font-size: large;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+section {
+  margin: 3rem;
+}
+.comon-btn {
+  background-color: #ff8906;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+/*============================= nav ============================ */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link li a {
+  text-decoration: none;
+}
+.nav-link li {
+  list-style: none;
+}
+.nav-link {
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+}
+
+/* ==============================Header section ==========================*/
+header {
+  margin-top: 100px;
+}
+.header-section {
+  display: flex;
+}
+.heading-para-btn {
+  margin-top: 20px;
+}
+.btn-para {
+  margin-top: 20px;
+  padding-top: 10px;
+}
+.btn-dev {
+  margin-top: 20px;
+}
+
+.header-title {
+  font-size: 50px;
+  font-weight: bolder;
+}
+.fa-chevron-right {
+  background-color: #ff8906;
+}
